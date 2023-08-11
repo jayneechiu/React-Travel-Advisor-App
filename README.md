@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+<h1>React-Travel-Advisor-App</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the React-Travel-Advisor-App! This application is designed to help you discover nearby restaurants, hotels, and tourist attractions in your chosen destination. Whether you're exploring a new city or planning a weekend getaway, this app will be your trusty companion.
 
-## Available Scripts
+<h3>Features</h3>
 
-In the project directory, you can run:
+Dynamic Map Display: View a dynamic map that showcases the locations of nearby restaurants, hotels, and tourist attractions. The map gives you a visual overview of your options.
 
-### `npm start`
+Detailed List: Explore the list of nearby places, complete with pictures, ratings, class, awards, and addresses. Clicking on a place will take you directly to its website for more information.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Interactive Search: Use the search bar to type in your destination. The map and list will be updated accordingly, showing you options in your desired area.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Map Interaction: Drag the map to explore different areas, and the list will automatically update to match the new map view.
 
-### `npm test`
+<h3>Data Source</h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This app utilizes a free API to fetch the data about nearby places. <h4>However, in the event that the API fetch limit for the month is reached, the app seamlessly switches to using mock data.</h4>
 
-### `npm run build`
+<h3>Getting Started</h3>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get started with the Nearby Explorer App, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone this repository to your local machine.
+Open the app in your preferred code editor.
+Run the app using your preferred development environment.
+Explore nearby restaurants, hotels, and tourist attractions in your chosen destination.
+Feel free to customize the app according to your preferences or add more features to enhance your experience!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy exploring!
