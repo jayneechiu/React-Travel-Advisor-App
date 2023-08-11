@@ -19,9 +19,11 @@ export const getPlacesData = async (sw, ne, type) => {
         },
       }
     );
+    // console.log({ data });
     return data;
   } catch (error) {
     console.log(error);
+    return mock;
   }
 };
 
